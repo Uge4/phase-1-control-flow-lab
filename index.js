@@ -10,7 +10,7 @@ function scuberGreetingForFeet(rideLength){
   return 'That will be twenty bucks.';  
   } 
   
-  else if (rideLength > 2000){
+  else if (rideLength > 2000 && rideLength < 2500){
   return 'I will gladly take your thirty bucks.';  
   } 
   
